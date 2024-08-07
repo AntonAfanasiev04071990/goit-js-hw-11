@@ -48,7 +48,7 @@
   margin-top: 20px;
   margin-left: 20px;
   min-width: 320px;
-  flex-basis: calc((100% - 80px) / 4);
+  flex-basis: calc((100% - 24px) / 3);
   border: none;
   border-radius: 10px;
   overflow: hidden;
@@ -110,14 +110,4 @@
   border: 6px solid #000;
   border-color: #000 transparent #000 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
-}
-
-@keyframes lds-dual-ring {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
